@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Our Love Story</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital.ttf') format("truetype");
+		}
+	</style>
+	<link href="default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="garden.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
+
+</head>
+
+<body>
+<div id="mainDiv">
+	<div id="content">
+		<div id="code">
+			<span class="comments"></span><br/>
+			<span class="comments">  Dear Evelyn,</span><br/>
+			<span class="comments"> I am writing this message to celebrate Valentine's Day, even though we might have had disagreements today.</span><br/>
+			<span class="comments">You might still be upset with me, but that's okay.</span><br/>
+			
+			
+			<span class="comments"> On December 8th, 2021, our conversations began. Fast forward to December 12th, 2021, </span><br/>
+			
+					 <span class="comments"> You became my Girlfriend/Wife O_O  </span><br/>
+		
+																					   <span class="comments">and you became my wife. They say there's such a thing as love at first sight, and with you, I felt it was undeniably true.</span><br/>
+			
+						 <span class="comments"> Sheesh, two years and two months have flown by, and every day I am incredibly grateful for you.</span><br/>
+			
+			<span class="comments"> Here's a list of things we enjoy together:</span><br/>
+			
+			<span class="comments"> We Watch movies, and enjoy each other company together.</span><br/>
+			
+			<span class="comments"> We share laughs together</span><br/>
+			
+			<span class="comments">We dicuss about our days and you show me donya eat or just her relaxing at times which is pretty fun to watch.</span><br/>
+			
+						  <span class="comments"> Yes, sometimes we disagree, but that's okay as long as we can resolve it together.</span><br/>
+		
+			<span class="comments">  You're my joy and happiness.</span><br/>
+			
+			
+			<span class="comments"> You are the love of my life.</span><br/>
+			
+			<span class="comments">  Will you be my valentine?.</span><br/>
+			
+			<span class="comments"> I love you forever.</span><br/>
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					 Evelyn, I have fallen in love with you for
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					I Love You.<br />
+					<div class="signature">-  Max AKA Baby Daddy :)</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="copyright">
+		Copyright © 2021 <a href='http://EVELYNISHOT.com'>Evelynishot.com</a> 2021-2024
+	</div>
+</div>
+<script type="text/javascript">
+	var offsetX = $("#loveHeart").width() / 2;
+	var offsetY = $("#loveHeart").height() / 2 - 55;
+	var together = new Date();
+	// 此处月份介于 0 ~ 11 之间。用本地时间表示，如 8 月要用 7 表示。
+		
+
+	if (!document.createElement('canvas').getContext) {
+		var msg = document.createElement("div");
+		msg.id = "errorMsg";
+		msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+		document.body.appendChild(msg);
+		$("#code").css("display", "none")
+		$("#copyright").css("position", "absolute");
+		$("#copyright").css("bottom", "10px");
+		document.execCommand("stop");
+	} else {
+		setTimeout(function () {
+			startHeartAnimation();
+		}, 5000);
+
+	
+		adjustCodePosition();
+		$("#code").typewriter();
+	}
+</script>
+</body>
+</html>
+
+
+	}
+</script>
+</body>
+</html>
